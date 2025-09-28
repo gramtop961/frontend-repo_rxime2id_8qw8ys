@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/template/frontend/src/app/page.tsx"],"sourcesContent":["export default function Home() {\n  return (\n    <div>\n      <h1>Hi</h1>\n    </div>\n  )\n}\n"],"names":[],"mappings":"mRAAe,SAAS,IACtB,MACE,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UACC,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,QAGV"}
