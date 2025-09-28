@@ -1,0 +1,3 @@
+module.exports=[94562,a=>{"use strict";a.s(["default",()=>d]);var b=a.i(37834),c=a.i(71411);function d(){let[a,d]=(0,c.useState)("checking..."),[e,f]=(0,c.useState)("");(0,c.useEffect)(()=>{g()},[]);let g=async()=>{try{let a=await fetch("http://localhost:8000/api/hello"),b=await a.json();d("✅ Connected"),f(b.message)}catch(a){d("❌ Not Connected"),f("Backend is not reachable")}};return(0,b.jsxs)("div",{children:[(0,b.jsx)("h1",{children:"Backend Connection Test"}),(0,b.jsxs)("p",{children:["Status: ",a]}),(0,b.jsxs)("p",{children:["Message: ",e]}),(0,b.jsx)("button",{onClick:g,children:"Test Again"})]})}}];
+
+//# sourceMappingURL=template_frontend_src_app_test_page_tsx_3f2b37f2._.js.map
